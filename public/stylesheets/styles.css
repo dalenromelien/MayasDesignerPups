@@ -1,0 +1,51 @@
+body{
+  background-color: #ffa781;
+  max-width: 80%;
+  margin: auto;
+}
+
+@font-face {
+  font-family: dancingScript;
+  src: url(/fonts/DancingScript-SemiBold.ttf);
+}
+
+.navigation{
+  background-color: #5b0e2d;
+  padding: 10px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.navigation li{
+  display: inline;
+  margin: 30px;
+  color:white;
+  
+}
+
+header{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: dancingScript;
+}
+
+.imageContainer{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.imageBorder{
+  border: 10px solid #5b0e2d;
+  border-radius: 5px;
+}
+
+.brief-content{
+  display: block;
+}
